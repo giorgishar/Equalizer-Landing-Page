@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    background-image: url(/assets/bg-main-mobile.png);
+    background-position: 9.2rem -18%;
+    background-repeat: no-repeat;
+}
+
+.header__img {
+    margin-top: 4rem;
+    width: 14.6rem;
+    height: 3.2rem;
+
+}
+
+
+.header__title {
+    width: 32.7rem;
+    margin-top: 6.4rem;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    letter-spacing: -0.454545px;
+    color: #191826;
+}
+
+
+.header__par {
+    margin-top: 2rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #191826;
+}
+
+.div__inside-header {
+    margin: 0rem 2.4rem 0 2.4rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16.6rem;
+    position: relative;
+}
+
+
+.content__div1 {
+
+    width: 100%;
+    height: 60rem;
+    background: #191826;
+    background-image: url(/assets/bg-pattern-2.svg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 12px;
+    
+}
+
+.mobile__phone {
+    width: 20.9rem;
+    height: 43rem;
+    position: absolute;
+    top: -13%;
+}
+
+.content__div2 {
+    background: #FA7453;
+    border-radius: 12px;
+    width: 100%;
+    height: 546px;
+    position: absolute;
+    top: 82%;
+}
+
+.div2__text {
+    margin: 4.8rem 3.6rem 3.6rem 3.6rem;
+}
+
+
+.div2__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FCFAF9;
+
+}
+
+.div2__para {
+    margin-top: 1.2rem;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FCFAF9;
+
+}
+
+.price {
+    display: flex;
+    margin-left: 4.2rem;
+    margin-top: 3.6rem;
+    gap: 1.6rem;
+    align-items: center;
+
+}
+
+.dollar {
+    font-weight: 700;
+    font-size: 6.5rem;
+    line-height: 5.2rem;
+    color: #FCFAF9;
+}
+
+.month {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.2rem;
+    letter-spacing: -0.2px;
+    color: #FCFAF9;
+
+}
+
+.div2__btns {
+    margin: 4.3rem 4rem 4.8rem 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button {
+    width: 29.6rem;
+    height: 6.1rem;
+    border-radius: 12px;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+.apple {
+    background: #191826;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+    letter-spacing: -0.18px;
+}
+
+.apple:hover {
+    background: #FFB964;
+}
+
+.apple img, .android img {
+    margin-right: 0.8rem;
+}
+
+.android {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    text-align: center;
+    letter-spacing: -0.18px;
+    color: #191826;
+
+}
+
+.android:hover {
+    background-color: #66E2DC;;
+}
+
+.android, .apple {
+    transition: all 1s;
+}
+
+.footer {
+    margin-top: 50.6rem;
+}
+
+.footer__content {
+    
+    height: 100%;
+    width: 100%;
+}
+
+#footer__logo {
+    margin-left: 2.4rem;
+}
+
+.footer__text {
+    margin: 6.4rem 2.4rem;
+}
+
+.footer__par {
+    margin-top: 3.2rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+
+}
+
+.footer__icons {
+    display: flex;
+    margin-left: 2.4rem;
+    margin-bottom: 8rem;
+    gap: 2rem;
+}
+
+
+
+.footer__par span {
+    font-weight: 700;
+}
+
+#social__fb:hover, #social__insta:hover, #social__twitter:hover {
+    fill: #FA7453;
+    cursor: pointer;
+}
+
+#social__fb, #social__insta, #social__twitter {
+    transition: all 1s;
+}
+
+/* Tablet */
+
+@media screen and (min-width: 768px){
+
+
+    body {
+        background-image: url(/assets/bg-main-tablet.png);
+        background-repeat: no-repeat;
+        background-position: -27rem -27%;
+    }
+
+
+    .header {
+        background-image: url(/assets/bg-pattern-1.svg);
+        background-repeat: no-repeat;
+        background-position: 106% -30%;
+        background-size: 29rem 40rem;
+        
+    }
+
+    .header__title {
+        width: 52rem;
+        margin-top: 9.5rem;
+        font-weight: 700;
+        font-size: 6.4rem;
+        line-height: 6.4rem;
+    }
+
+    .header__par {
+        margin-bottom: 24.9rem;
+        margin-top: 2.8rem;
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+        max-width: 52rem;
+    }
+
+    .mobile__phone {
+        width: 27.021rem;
+        height: 55.6rem;
+        top: -23%;
+        left: 7%;
+
+    }
+
+
+
+    .content__div1 {
+        background-position: 45% -35%;
+    }
+
+    .content__div2 {
+        max-width: 60%;
+        top: 25%;
+        right: 10%;
+    }
+
+
+    .footer {
+        margin-top: 18.7rem;
+        padding: 2.4rem;
+    }
+
+    .footer__content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 3.2rem;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .footer__text {
+        margin: 0;
+    }
+    
+    .footer__par {
+        margin-top: 3.2rem;
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+        max-width: 33.6rem;
+    
+    }
+    
+    .footer__icons {
+        display: flex;
+        margin-top: 1rem;
+        margin-right: 4rem;
+        margin-left: 0rem;
+        margin-bottom: 0rem;
+        gap: 2rem;
+    }
+
+}
+    
+@media screen and (min-width: 1440px) {
+
+    body {
+        background-image: url(/assets/bg-main-desktop.png);
+        background-repeat: no-repeat;
+        background-position: -18rem 110%;
+
+    }
+
+    .div__inside-header {
+        
+        margin-left: 16.45rem;
+        margin-right: 26rem;
+    }
+
+    .header {
+        background-size: 31.2rem 46.8rem;
+    }
+
+    .header__title {
+        width: 101.5rem;
+        font-weight: 700;
+        font-size: 88px;
+        line-height: 88px;
+        letter-spacing: -1px;
+    }
+
+
+    .content__div1 {
+        width: 110rem;
+        background-position: 39.8% 10%;
+    }
+
+    .mobile__phone {
+        left: 20% 
+    }
+
+
+    .content__div2 {
+        width: 44.6rem;
+        right: 18%
+    }
+
+    .footer {
+        display: flex;
+        margin-bottom: 9.1rem;
+    }
+
+    .footer__content {
+        
+        margin-right: 16.5rem;
+        margin-top: 0;
+    }
+
+    .footer__par {
+        margin-left: 13.7rem;
+    }
+
+    #footer__logo {
+        margin-left: 16.5rem
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
